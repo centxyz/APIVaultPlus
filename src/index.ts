@@ -4,9 +4,9 @@
  */
 
 import { APIVaultPlus } from './apivaultplus';
-import minimist from 'minimist';
+import minimist, { ParsedArgs } from 'minimist';
 
-interface Args {
+interface Args extends ParsedArgs {
     verbose?: boolean;
     input?: string;
     output?: string;
