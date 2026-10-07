@@ -1,8 +1,8 @@
-# APIVaultPlus
+# KeySilo
 
-[![CI](https://github.com/centxyz/APIVaultPlus/actions/workflows/ci.yml/badge.svg)](https://github.com/centxyz/APIVaultPlus/actions/workflows/ci.yml)
+[![CI](https://github.com/centxyz/KeySilo/actions/workflows/ci.yml/badge.svg)](https://github.com/centxyz/KeySilo/actions/workflows/ci.yml)
 
-APIVaultPlus is a local encrypted broker for API credentials. It stores secret values with AES-256-GCM authenticated encryption, authorizes operations through scoped bearer tokens, supports expiry and versioned rotation, and records an audit trail that never contains plaintext secrets.
+KeySilo is a local encrypted broker for API credentials. It stores secret values with AES-256-GCM authenticated encryption, authorizes operations through scoped bearer tokens, supports expiry and versioned rotation, and records an audit trail that never contains plaintext secrets.
 
 ## Features
 
@@ -16,8 +16,8 @@ APIVaultPlus is a local encrypted broker for API credentials. It stores secret v
 ## Install
 
 ```bash
-git clone https://github.com/centxyz/APIVaultPlus.git
-cd APIVaultPlus
+git clone https://github.com/centxyz/KeySilo.git
+cd KeySilo
 npm install
 npm run build
 ```
