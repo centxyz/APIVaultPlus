@@ -1,13 +1,16 @@
 {
   "name": "apivaultplus",
   "version": "1.0.0",
-  "description": "APIVaultPlus - A TypeScript implementation",
+  "description": "Encrypted, scoped API-secret broker with rotation and audit logging",
+  "bin": {
+    "apivaultplus": "dist/index.js"
+  },
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
     "dev": "ts-node src/index.ts",
-    "test": "tsc && jest --runInBand",
+    "test": "tsc && node --test test/*.test.js",
     "clean": "rm -rf dist"
   },
   "author": "cent",
@@ -19,8 +22,6 @@
     "typescript": "^5.0.0",
     "@types/node": "^18.0.0",
     "@types/minimist": "^1.2.0",
-    "ts-node": "^10.0.0",
-    "jest": "^29.0.0",
-    "@types/jest": "^29.0.0"
+    "ts-node": "^10.0.0"
   }
 }
