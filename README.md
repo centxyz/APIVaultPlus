@@ -61,3 +61,9 @@ The test suite checks encryption at rest, persistence, scoped authorization, rot
 ## License
 
 MIT © cent
+
+## Current limitations
+
+- It cannot protect secrets on a compromised host or from a process that already has the master key and a valid token.
+- Shell arguments and environment variables may be exposed by the operating system or shell history.
+- The project has not received a professional security audit.
