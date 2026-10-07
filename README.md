@@ -1,5 +1,7 @@
 # APIVaultPlus
 
+[![CI](https://github.com/centxyz/APIVaultPlus/actions/workflows/ci.yml/badge.svg)](https://github.com/centxyz/APIVaultPlus/actions/workflows/ci.yml)
+
 APIVaultPlus is a local encrypted broker for API credentials. It stores secret values with AES-256-GCM authenticated encryption, authorizes operations through scoped bearer tokens, supports expiry and versioned rotation, and records an audit trail that never contains plaintext secrets.
 
 ## Features
